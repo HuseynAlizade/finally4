@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+.forMobile{
+    display: none;
+}
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.Logo {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    align-items: center;
+    width: 100%;
+
+}
+
+.icon {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-header {
+    margin-left: 5px;
+    border-bottom: 1px solid grey;
+}
+
+li {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img {
+    background-image: url("../img/main1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 800px;
+}
+
+.box1 {
+    position: relative;
+    background-color: white;
+    height: 333px;
+    width: 530px;
+    padding: 30px;
+    left: -100px;
+}
+
+.box1mob{
+    display: none;
+}
+
+.button1MOB{
+    background-color:#F9F9F9;
+    width: Fixed (337px)px;
+height: Hug (56px)px;
+padding: 16px 32px 16px 32px;
+gap: 10px;
+opacity: 0px;
+
+    top: 150px;
+    padding: 10px;
+    height: 100px;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.button1 {
+    background-color: #F9F9F9;
+    top: 150px;
+    position: relative;
+    padding: 10px;
+    height: 100px;
+}
+
+.title2 {
+    position: relative;
+    top: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.main2 {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 10px 150px;
+
+}
+
+.box2 {
+    border: 5px solid #F9F9F9;
+    background-color: #F9F9F9;
+    height: 200px;
+    width: 300px;
+    background-color: #F9F9F9;
+    padding: 48px;
+    font-size: 20px;
+    color: #2A254B;
+    margin: 20px;
+}
+
+.text {
+    position: relative;
+    font-size: 16px;
+    top: 10px;
+}
+
+.box3 {
+    border: 5px solid #F9F9F9;
+    background-color: #F9F9F9;
+    height: 200px;
+    width: 300px;
+    background-color: #F9F9F9;
+    padding: 48px;
+    font-size: 20px;
+    color: #2A254B;
+    margin: 20px;
+}
+
+.box4 {
+    border: 5px solid #F9F9F9;
+    background-color: #F9F9F9;
+    height: 200px;
+    width: 300px;
+    background-color: #F9F9F9;
+    padding: 48px;
+    font-size: 20px;
+    color: #2A254B;
+    margin: 20px;
+}
+
+.box5 {
+    border: 5px solid #F9F9F9;
+    background-color: #F9F9F9;
+    height: 200px;
+    width: 300px;
+    background-color: #F9F9F9;
+    padding: 48px;
+    font-size: 20px;
+    color: #2A254B;
+    margin: 20px;
+}
+
+.main3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 90%;
+}
+
+.Dandychair {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+}
+
+.RusticVaseSet {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+
+}
+
+.TheSilkyVase {
+
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lamp {
+    margin: 0px 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.text2 {
+    font-size: 20px;
+    color: #2A254B;
+}
+
+.button2 {
+    background-color: #F9F9F9;
+    top: -10px;
+    left: 750px;
+    position: relative;
+    padding: 10px;
+    height: 100px;
+}
+
+.main4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 0px 0px 180px;
+}
+
+
+.box6 {
+    background-color: #2A254B;
+    height: 482px;
+    width: 630px;
+    padding: 50px;
+    left: -100px;
+    color: white;
+}
+
+.button3 {
+    background-color: #F9F9F926;
+    top: 270px;
+    left: 50px;
+    position: relative;
+    padding: 20px;
+    height: 100px;
+    width: 170px;
+}
+
+.title3 {
+    font-size: 32px;
+}
+
+.foto {
+    margin: 10px;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup {
+    background-image: url("../img/foot1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 444px;
+    color: #F9F9F9;
+
+}
+
+.title4 {
+    font-size: 32px;
+    margin: 10px;
+}
+
+.text3 {
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+}
+
+.signup1 {
+    font-size: 16px;
+
+}
+
+.main5 {
+    position: relative;
+    top: 100px;
+}
+
+input {
+    background-color: #F9F9F9;
+    border-color: #F9F9F9;
+    width: 354px;
+    height: 56px;
+}
+
+footer {
+    background-color: #2A254B;
+    color: #F9F9F9;
+}
+
+
+.signup3 {
+    width: 354px;
+    height: 56px;
+    background: #2A254B;
+    padding: 16px 32px 16px 32px;
+    margin-left: -5px;
+    color: #F9F9F9;
+}
+
+.mco {
+    display: flex;
+    padding: 50px;
+}
+
+.mco ul {
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.toopfooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form{
+    margin-left: 350px;
+    margin-top: -140px;
+}
+.mail {
+    margin-top: 20px;
+    background-color: #08073c;
+}
+
+.bottomFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #4E4D93;
+    margin: 29px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.button4 {
+    background-color: #fff;
+    margin-left: -5px;
+    padding: 20px;
+}
+
+.ul1,
+.ul2,
+.ul3 ul {
+    display: flex;
+    align-items: start;
+}
+
+@media only screen and (max-width: 800px){
+    .forMobile{
+        display: flex;
+    }
+
+    .top-header{
+        display: none;
+    }
+
+    nav{
+        display: none;
+    }
+
+.img{
+    width: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:639px;
+}
+
+.box1mob{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.img{
+display: none;
+}
+
+}
